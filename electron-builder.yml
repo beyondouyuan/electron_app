@@ -1,6 +1,7 @@
 # electron-builder.yml
 appId: 123456qwerty
 productName: MyElectronApp
+files: ["main.js", "dist"]
 directories:
   output: dist
 mac:
