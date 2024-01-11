@@ -1,0 +1,11 @@
+# electron-builder.yml
+appId: 123456qwerty
+productName: MyElectronApp
+directories:
+  output: dist
+mac:
+  target: ["dmg"]
+win:
+  target: ["nsis"]
+linux:
+  target: ["deb", "rpm"]
